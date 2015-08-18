@@ -15,7 +15,7 @@ return IRQ_NONE;
 
 static int my_init(void){
 //request_irq(unsigned int irq, irq_handler_t handler, unsigned long flags,const char *name, void *dev)
-	if(request_irq(irq,function_handler,IRQF_SHARED,"function_handler",&my_dev_id)){
+	if(request_irq(irq,function_handler,IRQF_SHARED,"my_handler",&my_dev_id)){
 		return -1;
 	}
 	 printk("ISR handler is successfully loaded\n");

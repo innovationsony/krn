@@ -1,6 +1,12 @@
+#include<stdio.h>
 
-
-
+void func(void){
+unsigned int i=0;
+while(i<10000000){
+	i++;
+//printf("sdaf\n");
+	}
+}
 
 main(){
 printf("=>");
@@ -15,8 +21,10 @@ printf("=>");
 //printf("\b");
 printf("\b");
 printf("==>");
+sleep(2);
 printf("\b");
 printf("===>");
+func();
 printf("\b");
 printf("====>");
 printf("\b");

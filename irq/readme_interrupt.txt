@@ -57,6 +57,17 @@ extern void free_irq(unsigned int, void *);
 extern void free_irq(unsigned int IRQLINENO, void * device_id);
 
 
+------------------------------------------------------
+CONFIRMATION OF INTERRUPT
 
--------------------------------------------------
-example:  request_irq(irq,myinterrupt,IRQF_SHARED,myinterrupt,);
+see in cat/proc/interrupts
+in which 4 columns appears
+
+irqline no. | per cpu intrruptno | handler | irq_action
+
+---------------------------------------------------------
+
+ cp /home/bln/Pictures/interrupts_proc.png $V/kernel/irq
+
+
+
