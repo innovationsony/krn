@@ -1,0 +1,1 @@
+cmd_/home/bln/C/C/OMKAR/V/kernel/rtc/rtc_app1.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-61-generic/scripts/module-common.lds --build-id  -o /home/bln/C/C/OMKAR/V/kernel/rtc/rtc_app1.ko /home/bln/C/C/OMKAR/V/kernel/rtc/rtc_app1.o /home/bln/C/C/OMKAR/V/kernel/rtc/rtc_app1.mod.o
