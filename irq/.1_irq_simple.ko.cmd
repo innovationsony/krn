@@ -1,0 +1,1 @@
+cmd_/home/bln/C/C/OMKAR/V/kernel/irq/1_irq_simple.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-61-generic/scripts/module-common.lds --build-id  -o /home/bln/C/C/OMKAR/V/kernel/irq/1_irq_simple.ko /home/bln/C/C/OMKAR/V/kernel/irq/1_irq_simple.o /home/bln/C/C/OMKAR/V/kernel/irq/1_irq_simple.mod.o

@@ -3,14 +3,31 @@
 
 
 main(){
+printf("=>");
+//printf("\b");
+//printf("==>");
+//sleep(1);
+//printf("\b");
+//printf("===>");
+//sleep(1);
+//printf("\b");
+//printf("====>");
+//printf("\b");
+printf("\b");
+printf("==>");
+printf("\b");
+printf("===>");
+printf("\b");
+printf("====>");
+printf("\b");
 
-printf("llllllllll\n");
-printf("laaaaaaa\n");
-printf("l\n");
-printf("lll\n");
-//printf("llllll\n");
-//printf("lllll\n");
-//printf("llllll\n");
+
+
+
+//printf("\b\b\b\b\b\b\b\b\b\b\b\b\b");
+//printf("lll\n");
+//printf("lll\n");
+//printf("lll\n");
 //printf("llllll\n");
 //printf("llllllllll\n");
 //printf("lllllllll\n");
